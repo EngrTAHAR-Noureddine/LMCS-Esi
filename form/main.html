@@ -1,0 +1,49 @@
+<html>
+<head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../style/home.css">
+        <link rel="stylesheet" href="../style/navbar.css">
+       <link rel="stylesheet" href="../style/app.6ed081f4.css">
+        
+        
+<link rel = "icon" href = "../images/esi_logo.png" type = "image/x-icon">
+<title>Esi Alger</title>
+
+</head>
+
+<body>
+  
+    <header></header>
+    
+    Content.
+    
+    <footer></footer>
+
+
+
+
+    <script>
+        fetch("./navbar.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("header").innerHTML = data;
+  });
+
+fetch("./footer.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("footer").innerHTML = data;
+  });
+    </script>
+
+
+
+
+ </body>
+</html>
