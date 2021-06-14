@@ -24,7 +24,60 @@ body,html{
 a{text-decoration:none}
 
 /*****************containerOfNav************ */
-.containerOfNav{position:relative;width:100%;min-height:100%}
+.containerOfNav{
+  position: fixed;
+  width: 100%;
+  height: 180px;
+  background-color: white;
+  z-index: 1;
+}
+.content-page-home{
+  position: absolute;
+  margin-top:0px;
+  display: block;
+}
+.page-home{
+ display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.card-above-img{
+  width: 50%;
+  height: 35%;
+  background-color: rgba(88, 88, 88, 0.84);
+  position: absolute;
+  z-index: 1;
+  left: 10%;
+  top: 50%;
+  border-radius:19px;
+}
+.card-above-img .card-title-ofPub{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(255, 255, 255, 1);
+}
+.card-above-img .card-text-ofPub{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 60px;
+  color: rgba(255, 255, 255, 1);
+}
+.card-above-img .card-link-ofPub{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 30.17px;
+  color: rgba(255, 255, 255, 1);
+}
+#linkOfLirePlus{
+  
+}
 .top img{height:28px; margin:24px 16px 18px 24px}
 .header-search{display:none}
 
@@ -32,7 +85,20 @@ a{text-decoration:none}
 .center{float:none;}
 .auto-margin,.center{margin:0 auto}
 .max-width{width:100%}
-
+.nav-wr{
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
 /* ******************* pink-purple ************************** */
 .pink-purple{background:#d364a3;background:linear-gradient(90deg,#d364a3,#4a1863 50%,#4a1863)}
 
@@ -58,10 +124,27 @@ a{text-decoration:none}
 
 .header li a:hover{background-color:hsla(0,0%,100%,.1);border:none}
 .header li .selected{ background-color:rgba(0,0,0,.25)}
-.header li select{
-    background-color: transparent;
 
+/*the container must be positioned relative:*/
+.header li select{
+  position: relative;
+  font-family: inherit;
+  font-size: 24px;
+  border: none;
+  padding: 0px;
+  color: white;
+  background-color: transparent;
+  display: block;
+  }
+  .header li select option {
+    margin: 40px;
+    background:#4a1863;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
+
+
+    
 .header-search{display:none }
 .nav-search{margin:.5em 1em}
 .nav-search input{
@@ -114,7 +197,8 @@ a{text-decoration:none}
         .header ul{
                     display:inline-block;
                     position:relative;
-                    top:0;width:auto;
+                    top:0;
+                    width:auto;
                     padding:0;
                     background:none
                 }
@@ -125,8 +209,12 @@ a{text-decoration:none}
             margin: 15px 0px;
             }                
         .header li{
-            padding-left: 30px;
-            padding-bottom: 20px;
+            margin-left: 15px;
+            margin-right: 15px;
+            height: 80px;
+            display: inline-flex;
+            flex-direction: row;
+            align-items: center;
             float:left
                 }
         .header li a{
