@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="../style/navbar.css">
         <link rel="stylesheet" href="../style/page_home.css">
         <link rel="stylesheet" href="../style/page_news.css">
+        <link rel="stylesheet" href="../style/page_chercheurs.css">
+        
 <link rel = "icon" href = "../images/esi_logo.png" type = "image/x-icon">
 <title>Esi Alger</title>
 
@@ -16,6 +18,7 @@
     <div class="content-page-home">
       <div class="page-home"></div>
       <div class="page-news"></div>
+      <div class="page-chercheurs"></div>
     </div>
 
 
@@ -49,6 +52,14 @@
   })
   .then(data => {
     document.querySelector(".page-news").innerHTML = data;
+  });
+
+  fetch("./page_chercheurs.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector(".page-chercheurs").innerHTML = data;
   });
 
  /*

@@ -1,0 +1,12 @@
+.page-chercheurs{
+    width: 100%;
+    height: 100%;
+    
+}
+.page-chercheurs .chercheurs-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background-color: gray;
+}
