@@ -29,54 +29,7 @@ a{text-decoration:none}
   width: 100%;
   height: 180px;
   background-color: white;
-  z-index: 1;
-}
-.content-page-home{
-  position: absolute;
-  margin-top:0px;
-  display: block;
-}
-.page-home{
- display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.card-above-img{
-  width: 50%;
-  height: 35%;
-  background-color: rgba(88, 88, 88, 0.84);
-  position: absolute;
-  z-index: 1;
-  left: 10%;
-  top: 50%;
-  border-radius:19px;
-}
-.card-above-img .card-title-ofPub{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 48px;
-  font-weight: 400;
-  font-style: italic;
-  color: rgba(255, 255, 255, 1);
-}
-.card-above-img .card-text-ofPub{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 48px;
-  font-weight: bold;
-  font-style: normal;
-  line-height: 60px;
-  color: rgba(255, 255, 255, 1);
-}
-.card-above-img .card-link-ofPub{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 24px;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 30.17px;
-  color: rgba(255, 255, 255, 1);
-}
-#linkOfLirePlus{
-  
+  z-index: 5;
 }
 .top img{height:28px; margin:24px 16px 18px 24px}
 .header-search{display:none}
@@ -89,15 +42,6 @@ a{text-decoration:none}
   display: inline-flex;
   flex-direction: row;
   align-items: center;
-}
-.tales {
-  width: 100%;
-}
-.carousel-inner{
-  width:100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
 }
 /* ******************* pink-purple ************************** */
 .pink-purple{background:#d364a3;background:linear-gradient(90deg,#d364a3,#4a1863 50%,#4a1863)}
