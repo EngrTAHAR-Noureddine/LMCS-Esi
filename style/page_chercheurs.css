@@ -10,3 +10,65 @@
     display: block;
     background-color: gray;
 }
+
+.txt-nos-chercheurs{
+    width: 100%;
+    height: 10%;
+    background-color: aqua;
+}
+
+
+.carosel-nos-chercheurs{
+    width: 100%;
+    height: 50%;
+    display: block;
+    position: absolute;
+    background-color: blue;
+
+}
+
+.carosel-nos-chercheurs .carousel{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: brown;
+}
+
+.carosel-nos-chercheurs .carousel .carousel-item{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.carosel-nos-chercheurs .carousel .carousel-item .item-chercheurs{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 11%;
+}
+.carosel-nos-chercheurs .carousel .carousel-item .item-chercheurs .card-chercheur{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 0px;
+    width:17%;
+    height: 100%;
+    background-color: deeppink;
+    margin: 0px 1%;
+}
+
+
+
+.card-chercheur .A{
+	width:100%;
+    height:60%;
+    background-color:rgb(218, 8, 8);
+    }
+.card-chercheur .B{
+	width:100%;
+    height:60%;
+    background-color:green;
+    }
+
+
