@@ -24,6 +24,11 @@
 }
 .txt-nos-chercheurs a{
     cursor: pointer;
+    color: #000000;
+}
+.txt-nos-chercheurs a:hover{
+    cursor: pointer;
+    color: darkgray;
 }
 
 
