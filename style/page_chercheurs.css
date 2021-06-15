@@ -6,24 +6,34 @@
 .page-chercheurs .chercheurs-content{
     width: 100%;
     height: 100%;
-    position: absolute;
+
     display: block;
-    background-color: gray;
+    background-color: white;
 }
 
 .txt-nos-chercheurs{
     width: 100%;
     height: 10%;
-    background-color: aqua;
+    background-color: white;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-decoration: underline;
+    
+}
+.txt-nos-chercheurs a{
+    cursor: pointer;
 }
 
 
 .carosel-nos-chercheurs{
     width: 100%;
     height: 50%;
+    margin-bottom: 2%;
     display: block;
-    position: absolute;
-    background-color: blue;
+
+    background-color: white;
 
 }
 
@@ -31,7 +41,7 @@
     width: 100%;
     height: 100%;
     display: block;
-    background-color: brown;
+    background-color: white;
 }
 
 .carosel-nos-chercheurs .carousel .carousel-item{
@@ -42,7 +52,7 @@
 .carosel-nos-chercheurs .carousel .carousel-item .item-chercheurs{
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: white;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
@@ -51,24 +61,74 @@
 .carosel-nos-chercheurs .carousel .carousel-item .item-chercheurs .card-chercheur{
     display: inline-flex;
     flex-direction: column;
-    margin-top: 0px;
     width:17%;
-    height: 100%;
-    background-color: deeppink;
+    height: 95%;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0px 1%;
 }
 
 
 
-.card-chercheur .A{
+.card-chercheur .image-card-chercheur{
 	width:100%;
-    height:60%;
+    height:70%;
     background-color:rgb(218, 8, 8);
+    background-color: transparent;
+     display: block;
+   
+    
     }
-.card-chercheur .B{
+    .card-chercheur .image-card-chercheur img{
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+     }
+.card-chercheur .info-card-chercheur{
 	width:100%;
-    height:60%;
-    background-color:green;
+    height:30%;
+     text-align: center;
+     background-color: transparent;
+    display: inline-flex;
+        padding-top: 1%;
+    flex-direction: column;
+    background-color:transparent;
     }
 
+.card-chercheur .info-card-chercheur   .subtitle-chercheur {
+        color: grey;
+        font-size: 20px;
+        margin:5% 0px;
+      }  
+     
+.page-chercheurs .chercheurs-content .wrapper-Nos-Partenaires{
+    width: 100%;
+    height: 25%;
+    padding:0px 2% 1% 2%;
+    background-color: white;
+    display: block;
+}      
+.wrap-partenaires{
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 2%;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wrap-partenaires .partenaire-img{
+        width: 100%;
+        height: 100%;
+        margin: 0px 2%;
+        background-color: white;
+    }
+    .wrap-partenaires .partenaire-img img{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }    
 
