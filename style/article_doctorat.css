@@ -1,0 +1,116 @@
+.margin-div{
+    width: 100%;
+    height: 200px;
+
+}
+
+.body-article{
+    width: 100%;
+    min-height: 20%;
+    height:auto;
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 20%;
+}
+
+.body-article .date-article{
+    width: 100%;
+    height: 10%;
+   display: block;
+   padding: 1% 10%;
+    background-color: white;
+}
+.body-article .title-article{
+    width: 100%;
+    height: 30%;
+    padding: 1% 10%;
+    display: block;
+    background-color:white;
+}
+.body-article .tags-article{
+    width: 100%;
+    height: 10%;
+    display: block;
+    padding: 1% 10%;
+    background-color: white;
+
+}
+.body-article .photo-article{
+    width: 100%;
+    height: 50%;
+    display: block;
+    background-color: white;
+}
+.body-article .photo-article img{
+    width: 100%;
+    height: 100%;
+}
+
+.body-article .long-article{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    display: block;
+    padding: 1% 10%;
+    background-color: white;
+}
+.body-article .fill-content{
+  text-align: center;
+    width: 100%;
+    height: 100%; 
+     
+    background-color: white;
+}
+
+.body-article .date-article p{
+font-family: Merriweather;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+
+color: #C4C4C4;
+}
+
+.body-article .title-article p{
+    font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 75px;
+
+color: #000000;
+}
+.body-article .tags-ar{
+    display: inline-block;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.body-article .tags-ar span{
+    margin: 2%;
+    height: fit-content;
+    padding: 0px 5px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    background-color: #C4C4C4;;
+    
+    
+    color: #000000;
+}
+
+.body-article .long-article p{
+    text-align: left;
+font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+
+color: #000000;
+}
