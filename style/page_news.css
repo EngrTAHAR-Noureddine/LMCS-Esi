@@ -89,13 +89,18 @@
     padding-right: 5%;
 
 }
-.read-more-contentNews p{
+.read-more-contentNews a{
     color: rgba(0, 0, 0, 1);
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: 700;
+    float: right;
     font-style: normal;
     text-align: right;
+}
+.read-more-contentNews a:hover{
+    color: darkgray;
+    
 }
 .soutenance{
     width: 100%;
@@ -144,14 +149,17 @@
     padding: 0px 20%;
 }
 
-.title-card-contentNews p{
+.title-card-contentNews a{
     color: rgba(0, 0, 0, 1);
     font-family:'Times New Roman', Times, serif ;
     font-size:36px ;
     font-weight:700 ;
     font-style: normal;
 }
-
+.title-card-contentNews a:hover{
+        color:darkgray;
+        cursor: pointer;
+}
 
 .content-card-contentNews{
     display: block;
