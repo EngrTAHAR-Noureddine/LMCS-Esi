@@ -1,6 +1,7 @@
 # LMCS-Esi
-WebSite of esi about LMCS
+WebSite of esi about LMCS\n
 
-Designer : KHORSI Mustapha Abdel-Aziz
-Back-end & API: Lokmane
-Front-end: TAHAR Noureddine
+Designer : KHORSI Mustapha Abdel-Aziz\n
+
+Back-end & API: Lokmane\n
+Front-end: TAHAR Noureddine\n
